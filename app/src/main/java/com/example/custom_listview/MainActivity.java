@@ -22,20 +22,19 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        int[] imageId = {R.drawable.a,R.drawable.b,R.drawable.c};
-        String[] name = {"Chanchon","Putting","Panupong"};
-        String[] id = {"623410004-6","623410008-8","623410009-6"};
-        String[] Time = {"8:45 pm","9:00 am","7:34 pm","6:32 am","5:76 am",
-                "5:00 am","7:34 pm","2:32 am","7:76 am"};
-        String[] phoneNo = {"062-1319253","064-3469907","061-0953083"};
-        String[] country = {"Mahasarakham","Kalasin","Nakhonpanom"};
-        String[] universi = {"Khonkean University","Khonkean University","Khonkean University"};
+        int[] imageId = {R.drawable.b,R.drawable.a,R.drawable.c};
+        String[] name = {"Puttipong","Chanchon","Panupong"};
+        String[] id = {"623410008-8","623410004-6","623410009-6"};
+        String[] number = {"01","02","03"};
+        String[] phone = {"064-3469907","062-1319253","061-0953083"};
+        String[] country = {"Kalasin","Mahasarakham","Nakhonpanom"};
+        String[] universi = {"KKU NKC","KKU NKC","KKU NKC"};
 
         ArrayList<User> userArrayList = new ArrayList<>();
 
         for(int i = 0;i< imageId.length;i++){
 
-            User user = new User(name[i],id[i],Time[i],phoneNo[i],country[i],imageId[i]);
+            User user = new User(name[i],id[i],number[i],phone[i],country[i],imageId[i]);
             userArrayList.add(user);
 
         }
@@ -51,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent i = new Intent(MainActivity.this,UserActivity.class);
                 i.putExtra("name",name[position]);
-                i.putExtra("phone",phoneNo[position]);
+                i.putExtra("phone",phone[position]);
                 i.putExtra("country",country[position]);
                 i.putExtra("universi",universi[position]);
                 i.putExtra("imageid",imageId[position]);
