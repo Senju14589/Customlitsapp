@@ -24,7 +24,7 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="81dp"
-        android:src="@drawable/facebook_avatar" />
+        android:src="@drawable/b" />
 
     <TextView
         android:id="@+id/scode_profile"
@@ -62,7 +62,7 @@
                 android:id="@+id/name_profile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Chanchon"
+                android:text="Puttipong"
                 android:textColor="@color/black"
                 android:textSize="26sp" />
 
@@ -95,7 +95,7 @@
                 android:id="@+id/phone_profile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="062-1319253"
+                android:text="064-3469907"
                 android:textColor="@color/black"
                 android:textSize="26sp" />
 
@@ -143,7 +143,7 @@
                 android:id="@+id/country_profile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Mahasakham"
+                android:text="Kalasin"
                 android:textColor="@color/black"
                 android:textSize="26sp" />
 
@@ -180,7 +180,7 @@
                 android:id="@+id/University_Profile"
                 android:layout_width="372dp"
                 android:layout_height="wrap_content"
-                android:text="Khonkean University"
+                android:text="KKU NKC"
                 android:textAlignment="center"
                 android:textColor="#131313"
                 android:textSize="26sp" />

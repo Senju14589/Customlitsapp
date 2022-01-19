@@ -19,7 +19,7 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/a"/>
+                android:src="@drawable/b" />
 
 
             <LinearLayout
@@ -32,17 +32,17 @@
                     android:id="@+id/personName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Christopher"
+                    android:text="SENJU7X"
                     android:textColor="@color/black"
                     android:textSize="26sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/phoneNumber"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="Hi, How Are you"/>
+                    android:text="BPD Gang" />
 
             </LinearLayout>
 
@@ -53,9 +53,9 @@
             android:id="@+id/msgtime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="15dp"
             android:layout_alignParentRight="true"
-            android:text="8:35 pm"/>
+            android:padding="15dp"
+            android:text="01" />
 
 
 
